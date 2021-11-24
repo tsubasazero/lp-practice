@@ -1,1 +1,241 @@
 @charset "utf-8";
+
+header{
+  padding: 0 100px;
+}
+
+.contact{
+  display: flex;
+  position: relative;
+  padding: 15px 0; 
+}
+
+a{
+  text-decoration: none;
+}
+
+.fas, .fa-archway, .fa-3x{
+  color: #777;
+}
+
+.list{
+  color: #fff;
+  background-color: #6ba7eb;
+  font-size: 12px;
+  padding: 12px 14px;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0 , -50%);
+}
+
+.list:hover{
+  transition: 0.3s;
+  color: #333;
+}
+
+/* -------------ここまでheader-------------------- */
+
+
+.keyvisual{
+  background: url(../img/keyvisual/keyvisual.jpg)no-repeat center/cover;
+}
+
+.text{
+  padding: 400px 0;
+  text-align: center;
+}
+
+.letter-main{
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+  margin-bottom: 30px;
+}
+
+.letter-sub{
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* ーーーーここまでkeyvisualーーーーー */
+
+.work{
+  background-color: #e3f2fd;
+  margin-bottom: 50px;
+}
+
+.box{
+  display: flex;
+  padding-top: 50px;
+  width: 1000px;
+  margin: auto;
+}
+
+.img-pc{
+  width: 40%;
+}
+
+.pc{
+  width: 250px;
+  
+}
+
+.img{
+  height: auto;
+  width: 100%;
+}
+
+.sentence{
+  padding-top: 20px;
+  width: 60%;
+  text-align: center;
+}
+
+h3{
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+.documents{
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+  margin-top: 35px;
+  
+  
+}
+
+
+/* ーーーーーーここまでworkーーーーーーー */
+
+.skills{
+ position: relative;
+}
+
+.grid{
+  margin: 70px;
+  display: grid;
+  grid-gap: 100px;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+
+.skills-one{
+  background: url(../img/skills/skills_1.png)no-repeat center/cover;
+  opacity: 0.7;
+}
+
+.skills-two{
+  background: url(../img/skills/skills_2.png)no-repeat center/cover;
+  opacity: 0.7;
+}
+
+.skills-three{
+  background: url(../img/skills/skills_3.png)no-repeat center/cover;
+  opacity: 0.7;
+}
+
+.skills-four{
+  background: url(../img/skills/skills_4.png)no-repeat center/cover;
+  opacity: 0.7;
+}
+
+.skills-five{
+  background: url(../img/skills/skills_5.png)no-repeat center/cover;
+  opacity: 0.7;
+}
+
+.skills-six{
+  background: url(../img/skills/skills_6.png)no-repeat center/cover;
+  opacity: 0.7;
+}
+
+.skills-one:hover ,.skills-two:hover ,.skills-three:hover ,.skills-four:hover ,.skills-five:hover ,.skills-six:hover{
+  opacity: 1;
+}
+
+/* ーーーーーーーーーーここまでWE WE ARE SKILLSーーーーーーー */
+
+.plan{
+  padding: 50px;
+  background-color: #d0dfea;
+}
+
+table{
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  
+}
+
+ tr:nth-child(odd){
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(even){
+  background-color: #e0efff;
+}
+
+th{
+  background-color: #6ba7ed;
+}
+
+th , td{
+  padding: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  border-right: 2px solid #fff;
+}
+
+th:last-child{
+  border-right: none;
+}
+
+td:last-child{
+  border-right: none;
+}
+
+/* ーーーーーーここまでSELECT PLANーーーーーーーーーー */
+
+
+.sns{
+  background-color: #e3f2fd;
+  padding: 200px 0;
+  
+}
+
+.url-sns{
+  margin: 25px 0;
+  display: flex;
+  justify-content: center;
+} 
+
+i{
+  width: 185px;
+  text-align: center;
+}
+
+.fab, .fa-facebook-f, .fa-dribbble, .fa-twitter, .fa-envelope{
+  color: #8c8c8c;
+  font-size: 40px; 
+  overflow: hidden;
+}
+
+/* ーーーーーーここまでSNSーーーーーーーーーー */
+
+
+footer{
+  background-color: #cfd8dc;
+}
+
+.copy{
+  padding: 20px 0 25px;
+  font-size: 10px;
+  letter-spacing: 0.5;
+  text-align: right;
+  margin-right: 100px;
+}
