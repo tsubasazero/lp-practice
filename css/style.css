@@ -1,13 +1,18 @@
 @charset "utf-8";
 
+
 header{
-  padding: 0 100px;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
 }
 
 .contact{
   display: flex;
-  position: relative;
-  padding: 15px 0; 
+  justify-content: space-between;
+  padding: 15px 0;
+  width: 1200px;
+  margin: auto;
 }
 
 a{
@@ -18,15 +23,15 @@ a{
   color: #777;
 }
 
+li{
+  margin: auto 0;
+}
+
 .list{
   color: #fff;
   background-color: #6ba7eb;
   font-size: 12px;
   padding: 12px 14px;
-  position: absolute;
-  top: 50%;
-  right: 0%;
-  transform: translate(0 , -50%);
 }
 
 .list:hover{
@@ -36,6 +41,9 @@ a{
 
 /* -------------ここまでheader-------------------- */
 
+main{
+  padding-top: 78px;
+}
 
 .keyvisual{
   background: url(../img/keyvisual/keyvisual.jpg)no-repeat center/cover;
@@ -205,24 +213,23 @@ td:last-child{
 .sns{
   background-color: #e3f2fd;
   padding: 200px 0;
-  
 }
 
-.url-sns{
-  margin: 25px 0;
+.sns-box{
   display: flex;
   justify-content: center;
 } 
 
-i{
+.url-sns{
   width: 185px;
   text-align: center;
 }
 
-.fab, .fa-facebook-f, .fa-dribbble, .fa-twitter, .fa-envelope{
+.fas .fab, .fa-facebook-f, .fa-dribbble, .fa-twitter, .fa-envelope{
   color: #8c8c8c;
   font-size: 40px; 
   overflow: hidden;
+  margin: 25px 0;
 }
 
 /* ーーーーーーここまでSNSーーーーーーーーーー */
