@@ -1,10 +1,18 @@
 @charset "utf-8";
 
+body{
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+
+}
 
 header{
   position: fixed;
   background-color: #fff;
   width: 100%;
+  z-index: 100;
+  
 }
 
 .box-header{
@@ -12,6 +20,7 @@ header{
   margin: auto;
   display: flex;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .logo{
@@ -43,7 +52,7 @@ a{
 /* -------------ここまでheader-------------------- */
 
 main{
-  max-width: none;
+  max-width: 100%;
   
 }
 
@@ -55,7 +64,7 @@ main{
 .title-text{
   background: url(../img/keyvisual/keyvisual.jpg)no-repeat center/cover;
   text-align: center;
-  width: 100%;
+  max-width: 100%;
   padding: 400px 0;
 }
 
@@ -76,34 +85,30 @@ main{
 
 .work{
   background-color: #e3f2fd;
-  margin-bottom: 50px;
   padding-top: 50px;
+  
 }
 
 .box{
   display: flex;
+  justify-content: space-between;
   width: 1000px;
   margin: auto;
 }
 
-.img-pc{
-  width: 40%;
-}
-
 .pc{
   width: 250px;
-  
 }
 
 .img{
   height: auto;
-  width: 100%;
+  max-width: 100%;
 }
 
 .sentence{
   padding-top: 20px;
-  width: 60%;
   text-align: center;
+  width: 600px;
 }
 
 h3{
@@ -119,13 +124,14 @@ h3{
   margin-top: 35px;
   
   
+  
 }
 
 
 /* ーーーーーーここまでworkーーーーーーー */
 
 .skills{
- position: relative;
+ margin-top: 50px;
 }
 
 .grid{
@@ -140,31 +146,37 @@ h3{
 .skills-one{
   background: url(../img/skills/skills_1.png)no-repeat center/cover;
   opacity: 0.7;
+  transition:all 0.7s;
 }
 
 .skills-two{
   background: url(../img/skills/skills_2.png)no-repeat center/cover;
   opacity: 0.7;
+  transition:all 0.7s;
 }
 
 .skills-three{
   background: url(../img/skills/skills_3.png)no-repeat center/cover;
   opacity: 0.7;
+  transition:all 0.7s;
 }
 
 .skills-four{
   background: url(../img/skills/skills_4.png)no-repeat center/cover;
   opacity: 0.7;
+  transition:all 0.7s;
 }
 
 .skills-five{
   background: url(../img/skills/skills_5.png)no-repeat center/cover;
   opacity: 0.7;
+  transition:all 0.7s;
 }
 
 .skills-six{
   background: url(../img/skills/skills_6.png)no-repeat center/cover;
   opacity: 0.7;
+  transition:all 0.7s;
 }
 
 .skills-one:hover ,.skills-two:hover ,.skills-three:hover ,.skills-four:hover ,.skills-five:hover ,.skills-six:hover{
@@ -229,6 +241,11 @@ td:last-child{
 .url-sns{
   width: 185px;
   text-align: center;
+}
+
+.url-sns:hover{
+  background-color: #fff;
+  transition:all 0.5s;
 }
 
 .fas .fab, .fa-facebook-f, .fa-dribbble, .fa-twitter, .fa-envelope{
