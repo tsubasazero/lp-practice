@@ -1,28 +1,25 @@
 @charset "utf-8";
 
-body{
-  max-width: 1100px;
-  height: auto;
-  margin: auto;
-  
-}
 
 .inner{
   width: 1100px;
   box-sizing: border-box;
+  margin: auto;
 }
 
 header{
   position: fixed;
   background-color: #fff;
   z-index: 100;
+  left: 50%;
+  transform: translateX( -50%);
 }
 
 .box-header{
   display: flex;
   justify-content: space-between;
   width: 700px;
-  margin: auto;
+  
 }
 
 .logo{
@@ -55,6 +52,7 @@ a{
 
 main{
   max-width: 1100px;
+  margin: auto;
 }
 
 .keyvisual{
