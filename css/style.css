@@ -1,10 +1,12 @@
 @charset "utf-8";
 
+.wrap{
+ overflow: hidden;
+}
 
 .inner{
   width: 1100px;
   box-sizing: border-box;
-  margin: auto;
 }
 
 header{
@@ -52,12 +54,10 @@ a{
 
 main{
   max-width: 1100px;
-  margin: auto;
 }
 
 .keyvisual{
   padding-top: 78px;
-  
 }
 
 .title-text{
@@ -81,13 +81,13 @@ main{
 
 /* ーーーーここまでkeyvisualーーーーー */
 
-.work{
+.work-box{
   background-color: #e3f2fd;
   padding-top: 50px;
   
 }
 
-.box{
+.text-box{
   display: flex;
   justify-content:space-between;
   margin: auto 100px;
@@ -179,10 +179,11 @@ h3{
 
 /* ーーーーーーーーーーここまでWE WE ARE SKILLSーーーーーーー */
 
-.plan{
+.planning{
   padding: 50px;
   background-color: #d0dfea;
 }
+
 
 table{
   table-layout: fixed;
