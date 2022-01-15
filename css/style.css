@@ -1,9 +1,17 @@
 @charset "utf-8";
 
 .inner{
-  min-width: 1100px;
+  width: 1100px;
   box-sizing: border-box;
+  margin: auto;
 }
+
+header, main, footer{
+  min-width: 1100px;
+}
+
+/* --------要素サイズーーーーーー */
+
 
 header{
   position: fixed;
@@ -15,9 +23,7 @@ header{
 .box-header{
   display: flex;
   justify-content: space-between;
-  width: 80%;
   box-sizing: border-box;
-  margin: auto;
 }
 
 .logo{
@@ -47,9 +53,9 @@ a{
 
 
 /* -------------ここまでheader-------------------- */
+
 .keyvisual{
   padding-top: 78px;
-  
 }
 
 .title-text{
@@ -73,16 +79,14 @@ a{
 
 /* ーーーーここまでkeyvisualーーーーー */
 
-.work-box{
+.work{
   background-color: #e3f2fd;
   padding-top: 50px;
-  
 }
 
 .text-box{
   display: flex;
   justify-content:space-between;
-  margin: auto 100px;
 }
 
 .pc{
@@ -110,18 +114,17 @@ h3{
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
-  margin-top: 35px;
+  padding-top: 35px;
 }
-
 
 /* ーーーーーーここまでworkーーーーーーー */
 
 .skills{
- margin-top: 50px;
+ padding-top: 50px;
 }
 
 .grid{
-  margin: 70px;
+  padding: 70px 0;
   display: grid;
   grid-gap: 100px;
   grid-template-rows: 300px 300px;
@@ -171,17 +174,20 @@ h3{
 
 /* ーーーーーーーーーーここまでWE WE ARE SKILLSーーーーーーー */
 
-.planning{
-  padding: 50px;
+
+.plan{
+  padding: 50px 0;
   background-color: #d0dfea;
 }
 
+.planning{
+  padding-top: 50px;
+}
 
 table{
+  padding-top: 50px;
   table-layout: fixed;
-  margin-top: 50px;
   text-align: center;
-  width: 100%;
 }
 
  tr:nth-child(odd){
