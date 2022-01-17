@@ -90,12 +90,11 @@ a{
 }
 
 .pc{
-  width: 250px;
+  width: 40%;
 }
 
 .img{
-  height: auto;
-  max-width: 100%;
+  width: 250px;
 }
 
 .sentence{
@@ -124,7 +123,7 @@ h3{
 }
 
 .grid{
-  padding: 70px 0;
+  margin: 70px auto;
   display: grid;
   grid-gap: 100px;
   grid-template-rows: 300px 300px;
@@ -181,7 +180,7 @@ h3{
 }
 
 .planning{
-  padding-top: 50px;
+margin-top: 50px;
 }
 
 table{
