@@ -87,14 +87,19 @@ a{
 .text-box{
   display: flex;
   justify-content:space-between;
+  
 }
 
 .pc{
   width: 40%;
+  display: flex;
+  justify-content: center;
+  
 }
 
-.img{
+.img-pc{
   width: 250px;
+  
 }
 
 .sentence{
@@ -131,45 +136,22 @@ h3{
   
 }
 
-.skills-one{
-  background: url(../img/skills/skills_1.png)no-repeat center/cover;
-  opacity: 0.7;
-  transition:all 0.7s;
+.items-img,.items{
+  width: 300px;
+  height: 300px;
+  box-sizing: content-box;
 }
 
-.skills-two{
-  background: url(../img/skills/skills_2.png)no-repeat center/cover;
+.items{ 
   opacity: 0.7;
-  transition:all 0.7s;
+  transition: all 0.7s;
 }
 
-.skills-three{
-  background: url(../img/skills/skills_3.png)no-repeat center/cover;
-  opacity: 0.7;
-  transition:all 0.7s;
-}
-
-.skills-four{
-  background: url(../img/skills/skills_4.png)no-repeat center/cover;
-  opacity: 0.7;
-  transition:all 0.7s;
-}
-
-.skills-five{
-  background: url(../img/skills/skills_5.png)no-repeat center/cover;
-  opacity: 0.7;
-  transition:all 0.7s;
-}
-
-.skills-six{
-  background: url(../img/skills/skills_6.png)no-repeat center/cover;
-  opacity: 0.7;
-  transition:all 0.7s;
-}
-
-.skills-one:hover ,.skills-two:hover ,.skills-three:hover ,.skills-four:hover ,.skills-five:hover ,.skills-six:hover{
+.items:hover{
   opacity: 1;
 }
+
+
 
 /* ーーーーーーーーーーここまでWE WE ARE SKILLSーーーーーーー */
 
