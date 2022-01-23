@@ -82,29 +82,23 @@ a{
 .work{
   background-color: #e3f2fd;
   padding-top: 50px;
+  text-align: center;
 }
 
 .text-box{
-  display: flex;
-  justify-content:space-between;
-  
+  display: flex; 
 }
 
 .pc{
   width: 40%;
-  display: flex;
-  justify-content: center;
-  
 }
 
 .img-pc{
   width: 250px;
-  
 }
 
 .sentence{
   padding-top: 20px;
-  text-align: center;
   width: 60%;
 }
 
