@@ -237,3 +237,167 @@ footer{
   text-align: right;
   
 }
+
+
+
+
+
+
+/* TABバージョン */
+@media screen and (max-width: 1199px) {
+  .inner{
+    width: 97%;
+  }
+  
+  header, main, footer{
+    min-width: 1199px;
+  }
+  /* --------要素サイズーーーーーー */
+/* -------------ここまでheader-------------------- */
+  .title-text{
+    background: url(../img/keyvisual/keyvisual.jpg)no-repeat center/cover;
+    padding: 250px 0;
+    text-align: center;
+  }
+
+ 
+
+   /* ーーーーここまでkeyvisualーーーーー */
+
+  .work{
+    background-color: #e3f2fd;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .text-box{
+    display: block;
+    width: 100%;
+  }
+
+  .pc{
+    width: 100%;
+  }
+
+  .sentence{
+    width: 100%;
+  }
+
+   /* ーーーーーーここまでworkーーーーーーー  */
+
+  .grid{
+    margin-top: 70px;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-rows: 300px 300px 380px;
+    grid-template-columns:  1fr ;
+    justify-items:center;
+    
+  }
+
+  /* ーーーーーーーーーーここまでWE WE ARE SKILLSーーーーーーー */
+  /* ーーーーーーここまでSELECT PLANーーーーーーーーーー */
+  /* ーーーーーーここまでSNSーーーーーーーーーー */
+}
+
+
+
+
+
+
+/* SPバージョン */
+@media screen and (max-width: 767px) {
+   
+  header, main, footer{
+    min-width: 767px;
+  }
+/* --------要素サイズーーーーーー */
+
+  .list{
+    display: none;
+  }
+
+  .menu{
+    background-color: #fff;
+    border: solid 2px #777;
+    border-radius: 4px;
+    width: 60px;
+    height: 40px;
+    position: relative;
+  }
+
+  .menu-box{
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn{
+    border: solid 2px #777;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+
+  .btn:last-child{
+    margin-bottom:0 ;
+  }
+
+
+  /* -------------ここまでheader-------------------- */
+
+  
+
+  .title-text{
+    padding: 200px 0;
+  }
+
+  .letter-main{
+    font-size: 40px;
+  }
+  
+  .letter-sub{
+    font-size: 30px;
+  }
+
+
+  /* ーーーーここまでkeyvisualーーーーー */
+
+  /* ーーーーーーここまでworkーーーーーーー */
+
+  /* ーーーーーーーーーーここまでWE WE ARE SKILLSーーーーーーー */
+
+  th {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  td{
+    font-size: 12px;
+  }
+
+
+/* ーーーーーーここまでSELECT PLANーーーーーーーーーー */
+  .sns{
+    background-color: #e3f2fd;
+    padding: 50px 15px;
+  }
+
+  .sns-box{
+    display: block;
+    width: 100%;
+  } 
+  
+  .url-sns{
+    width: 0;
+  }
+  
+  .fas .fab, .fa-facebook-f, .fa-dribbble, .fa-twitter, .fa-envelope{
+    margin: 50px 0;
+    width: 100%;
+
+  }
+
+/* ーーーーーーここまでSNSーーーーーーーーーー */
+}
