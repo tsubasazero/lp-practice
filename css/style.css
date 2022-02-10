@@ -40,6 +40,7 @@ header{
   background-color: #6ba7eb;
   font-size: 12px;
   padding: 12px 14px;
+  transition: 0.3s;
 }
 
 .list:hover{
@@ -210,11 +211,12 @@ td:last-child{
 .url-sns{
   width: 185px;
   text-align: center;
+  transition:all 0.5s;
 }
 
 .url-sns:hover{
   background-color: #fff;
-  transition:all 0.5s;
+  transition:all 0.5s ;
 }
 
 .fas .fab, .fa-facebook-f, .fa-dribbble, .fa-twitter, .fa-envelope{
@@ -289,10 +291,15 @@ footer{
     margin-top: 70px;
     display: grid;
     grid-gap: 0px;
-    grid-template-rows: 300px 300px 380px;
-    grid-template-columns:  1fr ;
+    grid-template-columns:  1fr;
     justify-items:center;
-    
+  }
+
+  .items:nth-child(3n){
+    padding-bottom: 80px;
+  }
+  .items:last-child{
+    padding-bottom: 0;
   }
 
   /* ーーーーーーーーーーここまでWE WE ARE SKILLSーーーーーーー */
@@ -384,19 +391,13 @@ footer{
     padding: 50px 15px;
   }
 
-  .sns-box{
+  .sns-box, .url-sns {
     display: block;
     width: 100%;
   } 
-  
-  .url-sns{
-    width: 0;
-  }
-  
+
   .fas .fab, .fa-facebook-f, .fa-dribbble, .fa-twitter, .fa-envelope{
     margin: 50px 0;
-    width: 100%;
-
   }
 
 /* ーーーーーーここまでSNSーーーーーーーーーー */
